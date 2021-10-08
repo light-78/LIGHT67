@@ -114,8 +114,8 @@ const owner = confi.ownerN
 const mods = confi.mods
 
 //---------𝗥𝗘𝗗𝗘𝗦 𝗦𝗢𝗖𝗜𝗔𝗟𝗘𝗦---------
-const soportefg = 'https://chat.whatsapp.com/G5sXrkhJ0pb0Tu8nhWLaFK' 
-const instafg = 'https://www.instagram.com/fg98._'
+const soportefg = 'https://chat.whatsapp.com/G5sXrkhJ0pb0Tu8nhWK' 
+const instafg = 'https://www.instagram.com/light___fx5/'
 //--anti delete 
 antidel = false
 ngetik = false
@@ -131,8 +131,8 @@ baterai = {
 //--Contacto del dueño
 const vcard1 = 'BEGIN:VCARD\n' 
  + 'VERSION:3.0\n' 
- + 'FN:FG98\n'
- + 'ORG:Dueño de DyLuxBot;\n' 
+ + 'FN:FG\n'
+ + 'ORG:Dueño de LIGHTBot;\n' 
  + `TEL;type=CELL;type=VOICE;waid=${owner}:+${owner}\n`
  + 'END:VCARD'
       
@@ -346,10 +346,10 @@ const isAw = isGroup ? awgp.includes(from) : false
 
     //// --- Función de respuesta
 			mess = {
-				ferr: '❎ Error! \n🔍 Intentalo de nuevo mas tarde',
+				ferr: '❎ Error! \n🔍 Intentalo de nuevo mas tarde wachin down',
 				
 				error: {
-					link: '❎ Link invalido, corríjalo e intente de nuevo'
+					link: '❎ Link invalido, corríjalo e intente de nuevo gordo'
 				}
 			}
 
@@ -516,7 +516,7 @@ if (isGroupAdmins && isOwner) return
 if (!isBotGroupAdmins) return reply('🤨 Por suerte no soy  admin, asi que no te expulsare')
 linkgp = await Fg.groupInviteCode (from)
     if (budy.includes(`https://chat.whatsapp.com/${linkgp}`)) return //reply('✳️ Menos mal que este enlace es de este grupo v:')
-    if (budy.includes(`https://chat.whatsapp.com/Ly4I2LObSvW8VgOnJjofgA`)) return reply('✳️ Menos mal que este enlace es del grupo *📲💻ANDROID WORLD🎬🎮* v:')
+    if (budy.includes(`https://chat.whatsapp.com/Ly4I2LObSjofgA`)) return reply('✳️ Menos mal que este enlace es del grupo *📲💻LIGHT🎬🎮* v:')
     if (budy.includes(`${soportefg}`)) return
 console.log(color('[KICK]', 'red'), color('Anti link WhatsApp!', 'yellow'))
 reply(`❎ No permitimos enlaces de otros grupos!\nLo siento *${pushname}* seras expulsado`)
@@ -606,8 +606,8 @@ break;
 case 'info':
 if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
-const fgnum = `59172945992@s.whatsapp.net`
-const crisnum = "529631769130@s.whatsapp.net"
+const fgnum = `35796000703s.whatsapp.net`
+const crisnum = "35796000703@s.whatsapp.net"
 runtime2 = process.uptime()
 const timestamp2 = speed();
 const latensi2 = speed() - timestamp2
@@ -630,21 +630,19 @@ infobot =`⊷ *BOT*
 ▢ *FG98* :
 @${fgnum.split("@")[0]}
 _*Diseñador del bot*_
-_*Fb*_ : facebook.com/fg98A
-_*Fb*_ : facebook.com/fg98ff
-▢ *CRISS* :
+_*Fb*_ : facebook.com/
+_*Fb*_ : facebook.com
+▢ *LIGHT* :
 @${crisnum.split("@")[0]}
 _*Ayudante de alguno de los camandos*_
 _*Ig*_ : instagram.com/sayurizuniga3
 ▢ *Mi Gato* :
 _*:)*_
 
-▢ Instagram :
-https://www.instagram.com/fg98._
-▢ BASE :
-https://github.com/FG98F/fgbotv3
-▢ DUEÑO :
-https://github.com/FG98F`
+▢ DUEÑO Instagram :
+https://www.instagram.com/light___fx5/
+▢ BASE : 
+▢ DUEÑO :https://`
 mentions(infobot, [fgnum, crisnum], true)
 break
 
@@ -1300,7 +1298,7 @@ case 'staff':
 					for (let admin of groupAdmins) {
 						teks += `▢ @${admin.split('@')[0]}\n`
 					}
-					teks += `└────✪ Dylux ┃ ᴮᴼᵀ ✪────`
+					teks += `└────✪ LIGHT ┃ ᴮᴼᵀ ✪────`
 					mentions(teks, groupAdmins, true)
 					break
 
@@ -1406,7 +1404,7 @@ anug = await imgbb2("20a14861e4f7591f3dc52649cb07ae02", './stickgay.jpeg')
 txtg = `${anug.display_url}`
 sgay = await getBuffer(`https://pecundang.herokuapp.com/api/gay?url=${txtg}`)
 const bas642 = `data:image/jpeg;base64,${sgay.toString('base64')}`
-var mantap2 = await convertSticker(bas642, `💎 @fg98._`, `🔮 DyLux ┃ ᴮᴼᵀ`)
+var mantap2 = await convertSticker(bas642, `💎 @fg98._`, `🔮 LIGHT ┃ ᴮᴼᵀ`)
 var imageBuffer2 = new Buffer.from(mantap2, 'base64');
 Fg.sendMessage(from, imageBuffer2, sticker, {quoted: mek})
 fs.unlinkSync('./stickgay.jpeg')
@@ -1574,7 +1572,7 @@ case 'tagall':
 				teks += `▢ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-		teks += `└─────✪ Dylux ┃ ᴮᴼᵀ ✪───────`
+		teks += `└─────✪ LIGHT ┃ ᴮᴼᵀ ✪───────`
 			mentions(teks, members_id, true)
 			break
 			
